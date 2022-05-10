@@ -1,16 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyFirstApp.MainPage"
+             x:Class="MyFirstApp.MainPage" BackgroundColor="#ffe6e6">
+<StackLayout>
+    <Label Text="Best MakeUp" HorizontalTextAlignment="Center" TextColor="#867979" FontSize="50" Font="Italic"/>
 
-    <StackLayout>
-     <Frame VerticalOptions="CenterAndExpand" BackgroundColor="#ffb3b3" Padding="30" CornerRadius="60">
-            <Label Text="Best MakeUp" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
 
-       
+    <Image Source="MakeUpSet.jpeg"
+       Aspect="AspectFit"
+       HorizontalOptions="Center" />
 
-      </Frame>
+</StackLayout>
 
-    </StackLayout>
 
-</ContentPage>
