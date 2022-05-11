@@ -1,12 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyFirstApp.LoginPage" Title="Login">
+             x:Class="MyFirstApp.LoginPage" Title="DELIVER IN 60 MIN">
     <ContentPage.Content>
         <StackLayout>
+            <SearchBar Placeholder="Type here to search for products"/>
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

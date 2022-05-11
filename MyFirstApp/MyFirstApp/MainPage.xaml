@@ -7,19 +7,20 @@
 
         <Image Source="Logo.jpg"></Image>
 
-        <Label Text="New Customer" HorizontalTextAlignment="Center" Background="White" TextColor="#867979" FontSize="20" />
-        <Button x:Name="button" Text="Sign up with your Xtra Savings Card" TextColor="Red" Background="White" Clicked="lol_Clicked"/>
-        <Button x:Name="button1" Text="Sign up with email or mobile" Background="White"  Clicked="lol_Clicked"/>
-        
-       
-        
-        
-      
-        <Label Text="Existing Customer" HorizontalTextAlignment="Center" Background="White" TextColor="#867979" FontSize="20" />
-        <Button x:Name="button3" Text="" TextColor="Red" Background="White" Clicked="lol_Clicked"/>
-        <Button x:Name="button4" Text="" TextColor="Red" Background="White" Clicked="lol_Clicked"/>
+        <Label Text="New Customer" HorizontalTextAlignment="Center" Background="White" TextColor="#707070" FontSize="20" />
 
-        <Button x:Name="button5" Text="Login" TextColor="White" BackgroundColor="#E8E8E8" Clicked="lol_Clicked"/>
+                        
+        <Button x:Name="button" Text="Sign up with your Xtra Savings Card" TextColor="Red" Background="White" Clicked="lol_Clicked"/>
+        
+         <Button x:Name="button1" Text="Sign up with email or mobile" Background="White"  Clicked="lol_Clicked"/>
+
+        <Frame Background="#E8E8E8"> </Frame>
+            <Label Text="Existing Customer" HorizontalTextAlignment="Center" Background="White" TextColor="#707070" FontSize="20" />
+        <Entry Keyboard="Email" Placeholder="Enter email address" VerticalOptions="CenterAndExpand" />
+        <Entry  Placeholder="Password" VerticalOptions="CenterAndExpand" />
+
+
+            <Button x:Name="button5" Text="Login" TextColor="White" BackgroundColor="#E8E8E8" Clicked="lol_Clicked"/>
         <Label Text="Forgot Password?" HorizontalTextAlignment="Center" Background="White" TextColor="#009999" FontSize="15" />
     </StackLayout>
 

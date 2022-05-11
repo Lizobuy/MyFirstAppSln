@@ -4,5 +4,11 @@
              x:Class="MyFirstApp.App">
     <Application.Resources>
 
+        <Style x:Key="labelStyle" TargetType="Label">
+
+            <Setter Property="FontSize" Value="50"/>
+
+        </Style>
+
     </Application.Resources>
 </Application>
