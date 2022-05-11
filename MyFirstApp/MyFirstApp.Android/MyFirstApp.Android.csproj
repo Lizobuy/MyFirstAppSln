@@ -84,55 +84,22 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\MakeUpSet.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\MyFirstApp\MyFirstApp.csproj">
       <Project>{23EAAE3A-F396-40A1-99E0-12250B646726}</Project>
       <Name>MyFirstApp</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\MakeUp.jpeg" />
+    <AndroidResource Include="Resources\drawable\baskettIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Mascara4.jpeg" />
+    <AndroidResource Include="Resources\drawable\homeIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Mascara3.jpeg" />
+    <AndroidResource Include="Resources\drawable\settingsIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Mascara2.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Mascara1.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\makeupkit.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Lipstick4.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Lipstick3.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Lipstick2.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Lipstick1.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Foundation4.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Foundation3.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Foundation2.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Foundation1.jpeg" />
+    <AndroidResource Include="Resources\drawable\Logo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

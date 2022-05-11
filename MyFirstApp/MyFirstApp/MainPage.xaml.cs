@@ -14,5 +14,9 @@ namespace MyFirstApp
         {
             InitializeComponent();
         }
-    }
+        private async void lol_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LoginPage());
+        }
+    } 
 }
