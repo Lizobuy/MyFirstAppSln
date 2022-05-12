@@ -26,8 +26,6 @@
 
                 <Entry  Placeholder="Password" VerticalOptions="CenterAndExpand" />
             </Frame>
-
-
             <Button x:Name="button5" Text="Login" TextColor="White" BackgroundColor="#E8E8E8" Clicked="lol_Clicked"/>
         <Label Text="Forgot Password?" HorizontalTextAlignment="Center" TextColor="#009999" FontSize="15" />
     </StackLayout>

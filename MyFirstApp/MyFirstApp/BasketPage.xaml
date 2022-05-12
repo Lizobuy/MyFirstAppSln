@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFirstApp.BasketPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" >
+                <Label Text="0 Products" 
+            HorizontalOptions="StartAndExpand" 
+                   FontSize="18"/>
+                <Label Text="Total R0.00"
+                HorizontalOptions="EndAndExpand" 
+                   FontSize="20"/>
+
+            </StackLayout>
+            <Label Text="Maximum of 35"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" 
+                   FontSize="14"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

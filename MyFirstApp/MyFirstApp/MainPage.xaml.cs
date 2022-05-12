@@ -16,7 +16,7 @@ namespace MyFirstApp
         }
         private async void lol_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new LoginPage());
+            await Navigation.PushAsync(new LandingPage());
         }
     } 
 }

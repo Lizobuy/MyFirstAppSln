@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFirstApp.ProfilePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Home.png" />
+
+            <Button x:Name="buttonL" Text="Account Details" VerticalOptions="StartAndExpand" FontSize="12" TextColor="Gray" BackgroundColor="White" HorizontalOptions="StartAndExpand" />
+            <Button x:Name="buttonI" Text="Communication Preferences" VerticalOptions="StartAndExpand" FontSize="12" TextColor="Gray" BackgroundColor="White" HorizontalOptions="StartAndExpand" />
+            <Button x:Name="buttonZ" Text="Saved Locations" VerticalOptions="StartAndExpand" FontSize="12" TextColor="Gray" BackgroundColor="White" HorizontalOptions="StartAndExpand" />
+            <Button x:Name="buttonO" Text="Payment Methods" VerticalOptions="StartAndExpand" FontSize="12" TextColor="Gray" BackgroundColor="White" HorizontalOptions="StartAndExpand" />
+            <Button x:Name="buttonK" Text="Wallet Balance" VerticalOptions="StartAndExpand" FontSize="12" TextColor="Gray" BackgroundColor="White" HorizontalOptions="StartAndExpand" />
+            <Frame Background="#E8E8E8" Padding="4"></Frame>
+            <Button x:Name="buttonB" Text="Orders" VerticalOptions="StartAndExpand" TextColor="Gray" FontSize="12" BackgroundColor="White" HorizontalOptions="StartAndExpand" />
+            <Button x:Name="buttonP" Text="Help Centre" VerticalOptions="StartAndExpand" TextColor="Gray" FontSize="12" BackgroundColor="White" HorizontalOptions="StartAndExpand" />
+            <Button x:Name="buttonU" Text="About" VerticalOptions="StartAndExpand" TextColor="Gray" FontSize="12" BackgroundColor="White" HorizontalOptions="StartAndExpand" />
+            <Frame Background="#E8E8E8" Padding="4"></Frame>
+            <Button x:Name="buttonM" Text="Log Out" VerticalOptions="StartAndExpand" FontSize="12" TextColor="Gray" BackgroundColor="White" HorizontalOptions="StartAndExpand" />
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
