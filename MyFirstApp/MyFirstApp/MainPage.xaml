@@ -9,7 +9,7 @@
 
         <Label Text="New Customer" HorizontalTextAlignment="Center" Background="White" TextColor="#707070" FontSize="20" />
 
-        <Frame Padding="0" CornerRadius="10" Margin="10" >
+        <Frame Padding="0" CornerRadius="10" Margin="10">
             <Button x:Name="button" Text="Sign up with your Xtra Savings Card" TextColor="Red" Background="White" Clicked="lol_Clicked"/>
         </Frame>
         <Frame Padding="0" CornerRadius="10" Margin="10">
